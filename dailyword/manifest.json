@@ -5,18 +5,18 @@
     "version": "1.0",
     "action": {
         "default_icon": {
-          "16": "images/light_house.jpeg",
-          "48": "images/light_house.jpeg",
-          "128": "images/light_house.jpeg"
+          "16": "images/lighthouse.svg",
+          "48": "images/lighthouse.svg",
+          "128": "images/lighthouse.svg"
         }
     },
     "chrome_url_overrides": {
         "newtab": "newtab.html"
     },
     "icons": {
-        "16": "images/light_house.jpeg",
-        "48": "images/light_house.jpeg",
-        "128": "images/light_house.jpeg"
+        "16": "images/lighthouse.svg",
+        "48": "images/lighthouse.svg",
+        "128": "images/lighthouse.svg"
     },
     "background": {
         "service_worker": "background.js"
