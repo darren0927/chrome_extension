@@ -1,82 +1,69 @@
+/* 全局设置 */
 body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #0C0B0B;
-}
-
-
-#quote {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #0C0B0B;
-  color: #333;
-  padding: 10px 20px;
-  height: 40px;
-}
-.text {
-    justify-content: space-between;
-    /*font-weight: bold;*/
-    align-items: center;
-    margin-left: 20px;
     font-family: Arial, sans-serif;
-    font-size: 1.4em;
-    color: #696969;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5; /* 浅灰色背景 */
+    color: #333333; /* 深灰色文字 */
+    font-size: 16px; /* 增加全局字体大小 */
 }
 
+/* 引用部分 */
+#quote {
+    background-color: #FFFFFF; /* 白色背景 */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* 轻微阴影 */
+    margin: 10px;
+    text-align: center;
+}
 
+#quote.text {
+    font-size: 18px; /* 增加引用部分字体大小 */
+    text-align: center;
+}
 
+/* 工具栏 */
 #toolbar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #151515;
-  color: #333;
-  padding: 10px 20px;
-  height: 50px;
-  box-shadow: 5px 2px 5px rgba(0,0,0,0.5);
-  border-radius: 10px;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-.rate {
-  justify-content: space-between;
-  align-items: center;
-}
-.rate label {
-  margin-left: 20px;
-  font-size: 1.4em;
-  font-family: Arial, sans-serif;
-  color: #CD5C5C;
-}
-.rate .value {
-  font-family: Arial, sans-serif;
-  font-size: 1.4em;
-  color: #FBFCFC;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #FFFFFF; /* 白色背景 */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* 轻微阴影 */
+    margin: 10px;
 }
 
+#toolbar div {
+    margin: 5px;
+}
 
+#toolbar label {
+    font-size: 18px; /* 增加工具栏标签字体大小 */
+    font-weight: bold;
+}
 
+#toolbar.rate {
+    text-align: center;
+}
 
+/* 主容器 */
 .main_container {
-  display: flex;
-  margin-top: 1%;
-  margin-left: 5%;
-  margin-right: 5%;
-  gap: 20px
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
 }
 
-.main_container div {
+#main_left, #main_right {
     flex: 1;
-    width: 50%;
-    border-radius: 10px;
-    padding: 10px 20px;
-    justify-content: center;
-    align-items: center;
-    background: #151515;
-    color: #333;
-    height: 800px;
-    box-shadow: 5px 2px 5px rgba(0,0,0,0.5);
-    border-radius: 10px;
+    background-color: #FFFFFF; /* 白色背景 */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* 轻微阴影 */
+    margin: 5px;
+}
+
+#main_left, #main_right {
+    font-size: 16px; /* 增加主容器内字体大小 */
 }
